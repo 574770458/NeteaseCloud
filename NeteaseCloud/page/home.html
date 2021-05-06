@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeteaseCloud</title>
+    <script type="text/Javascript" src="../jq/jquery-1.7.2.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/home.css">
+    <link rel="stylesheet" type="text/css" href="../css/footer.css">
+    <link rel="stylesheet" type="text/css" href="../css/section.css">
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../icon/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="../css/aside.css">
+    <script type="text/Javascript" src="../js/section.js"></script>
+    <script type="text/Javascript" src="../js/aside.js"></script>
+    <script type="text/Javascript" src="../js/footer.js"></script>
+    <script type="text/Javascript" src="../js/ajax.js"></script>
+</head>
+<style>
+
+</style>
+
+
+<body>
+    <header>
+        <label for="" id="tubiao"><img src="../imgs/网易云图标.png" alt=""><b style="font-size: 1.5em;color: white;">网易云音乐</b></label>
+        <div class="b">
+            <div class="box"><b class="iconfont" id="box1">&#xe61c;</b></div>
+            <div class="box"><b class="iconfont" id="box1">&#xe61d;</b></div>
+
+        </div>
+        <div class="sear">
+            <i class="iconfont" style="font-size: 2em;color: white;">&#xe616;</i>
+            <input type="text" placeholder="搜索">
+
+        </div>
+        <i class="iconfont" style="font-size: 1.5em;color: white; margin-left: 210px;">&#xe609;</i>
+
+        <div class="c">
+            <img id="img1" src="../imgs/头像.png" alt="">
+            <span id="span1">画词戏子1997<i id="span1" class="iconfont">&#xe77e;</i></span>
+            <span id="span1">开通VIP</span>
+        </div>
+
+
+        <ul class="d_ul">
+            <li><i class="iconfont" style="font-size: 2em;color: white;">&#xe62e;</i></li>
+            <li><i class="iconfont" style="font-size: 2em;color: white;">&#xeb41;</i></li>
+            <li><i class="iconfont" style="font-size: 1.6em;color: white;">&#xe627;</i></li>
+            <li><b style="color: white;">|</b></li>
+            <li><i class="iconfont" style="font-size: 1.8em;color: white;">&#xe6f3;</i></li>
+            <li><i class="iconfont" style="font-size: 1.5em;color: white;">&#xe624;</i></li>
+            <li><i class="iconfont" style="font-size: 1.5em;color: white;">&#xe673;</i></li>
+            <li><i class="iconfont" style="font-size: 1.5em;color: white;">&#xe60b;</i></li>
+        </ul>
+
+    </header>
+
+    <section class="section_nva">
+        <ul id="section_nva_ul1">
+            <li id='btn' class="btns"><a href="#">发现音乐</a></li>
+            <li id='btn' class="btns"><a href="#">视频</a></li>
+            <li id='btn' class="btns"><a href="#">朋友</a></li>
+            <li id='btn' class="btns"><a href="#">直播</a></li>
+            <li id='btn' class="btns"><a href="#">私人FM</a></li>
+        </ul>
+        <br>
+        <p>我的音乐</p>
+        <ul id="section_nva_ul2">
+            <li id='btn'>
+                <i class="iconfont">&#xe732;</i>
+                <a href="#">本地音乐</a>
+            </li>
+            <li id='btn'>
+                <i class="iconfont">&#xe856;</i>
+                <a href="#">下载管理</a>
+            </li>
+            <li id='btn'>
+                <i class="iconfont">&#xe611;</i>
+                <a href="#">我的音乐云盘</a>
+            </li>
+            <li id='btn'>
+                <i class="iconfont">&#xe693;</i>
+                <a href=" # ">我的电台</a>
+            </li>
+            <li id='btn'>
+                <i class="iconfont">&#xe660;</i>
+                <a href="# ">我的收藏</a>
+            </li>
+        </ul>
+        <br>
+        <span>创建的歌单</span>
+        <i class="iconfont" id="asd">&#xe77e;</i>
+        <i class="iconfont" id="add">&#xe632;</i>
+
+        <div id="a">
+            <ul id="section_nva_ul3">
+                <li id='btn'><i class="iconfont">&#xe629;</i><a href="#">画戏子1997的2020年度歌单</a><i class="iconfont">&#xe60d;</i></li>
+                <li id='btn'><i class="iconfont">&#xe674;</i><a href="#">民谣时代</a></li>
+                <li id='btn'><i class="iconfont">&#xe674;</i><a href="#">另类啊</a></li>
+                <li id='btn'><i class="iconfont">&#xe674;</i><a href="#">睡觉</a></li>
+                <li id='btn'><i class="iconfont">&#xe674;</i><a href="#">夜夜夜夜嗨嗨嗨嗨嗨</a></li>
+            </ul>
+        </div>
+    </section>
+
+
+    <!-- 类容框 -->
+    <aside>
+        <div class="top">
+            <ul class="top_ul">
+                <li>个性推荐</li>
+                <li>歌单</li>
+                <li>主播电台</li>
+                <li>排行榜</li>
+                <li>歌手</li>
+                <li>最新音乐</li>
+            </ul>
+
+            <div class="top_div">
+                <a href="#"><img id='tupian' src="../imgs/轮播图1.png" alt=""></a>
+                <ul class="top_div_ul">
+                    <li id='list'></li>
+                    <li id='list'></li>
+                    <li id='list'></li>
+                    <li id='list'></li>
+                    <li id='list'></li>
+                    <li id='list'></li>
+                    <li id='list'></li>
+                    <li id='list'></li>
+                    <li id='list'></li>
+                    <li id='list'></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="center_like">
+            <b>推荐歌单</b>
+            <i class="iconfont" style="font-size: 1.5em;">&#xe77e;</i>
+            <ul class="center_like_ul">
+                <li>
+                    <a href="#"><img src="../imgs/列表图1.png" alt=""></a>
+                    <div><a href="#"><strong>每日歌曲推荐</strong></a></div>
+                </li>
+                <li>
+                    <a href="#"><img src="../imgs/列表图1.png" alt=""></a>
+                    <div><a href="#"><strong>[一周日语上新]ONE OK最新</strong></a></div>
+                </li>
+                <li>
+                    <a href="#"><img src="../imgs/列表图1.png" alt=""></a>
+                    <div><a href="#"><strong>勇敢一点，做任何你觉得快乐的事情</strong></a></div>
+                </li>
+                <li>
+                    <a href="#"><img src="../imgs/列表图1.png" alt=""></a>
+                    <div><a href="#"><strong>[一周日语上新]ONE OK最新</strong></a></div>
+                </li>
+                <li>
+                    <a href="#"><img src="../imgs/列表图2.png" alt=""></a>
+                    <div><a href="#"><strong>[一周日语上新]ONE OK最新</strong></a></div>
+                </li>
+                <li>
+                    <a href="#"><img src="../imgs/列表图2.png" alt=""></a>
+                    <div><a href="#"><strong>[一周日语上新]ONE OK最新</strong></a></div>
+                </li>
+                <li>
+                    <a href="#"><img src="../imgs/列表图2.png" alt=""></a>
+                    <div><a href="#"><strong>[一周日语上新]ONE OK最新</strong></a></div>
+                </li>
+                <li>
+                    <a href="#"><img src="../imgs/列表图2.png" alt=""></a>
+                    <div><a href="#"><strong>[一周日语上新]ONE OK最新</strong></a></div>
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="center_like">
+            <b>独家放送</b>
+            <i class="iconfont" style="font-size: 1.5em;">&#xe77e;</i>
+            <ul class="center_like_ul">
+                <li>
+                    <a href="#"><img src="../imgs/列表图1.png" alt=""></a>
+                    <div><a href="#"><strong>每日歌曲推荐</strong></a></div>
+                </li>
+                <li>
+                    <a href="#"><img src="../imgs/列表图1.png" alt=""></a>
+                    <div><a href="#"><strong>[一周日语上新]ONE OK最新</strong></a></div>
+                </li>
+                <li>
+                    <a href="#"><img src="../imgs/列表图1.png" alt=""></a>
+                    <div><a href="#"><strong>勇敢一点，做任何你觉得快乐的事情</strong></a></div>
+                </li>
+                <li>
+                    <a href="#"><img src="../imgs/列表图1.png" alt=""></a>
+                    <div><a href="#"><strong>[一周日语上新]ONE OK最新</strong></a></div>
+                </li>
+                <li>
+                    <a href="#"><img src="../imgs/列表图2.png" alt=""></a>
+                    <div><a href="#"><strong>[一周日语上新]ONE OK最新</strong></a></div>
+                </li>
+                <li>
+                    <a href="#"><img src="../imgs/列表图2.png" alt=""></a>
+                    <div><a href="#"><strong>[一周日语上新]ONE OK最新</strong></a></div>
+                </li>
+                <li>
+                    <a href="#"><img src="../imgs/列表图2.png" alt=""></a>
+                    <div><a href="#"><strong>[一周日语上新]ONE OK最新</strong></a></div>
+                </li>
+                <li>
+                    <a href="#"><img src="../imgs/列表图2.png" alt=""></a>
+                    <div><a href="#"><strong>[一周日语上新]ONE OK最新</strong></a></div>
+                </li>
+            </ul>
+
+        </div>
+
+
+
+    </aside>
+
+    <footer>
+        <div class="boxleft">
+            <label for=""><img id="imgs" src="../imgs/赤伶.jpg" alt=""></label>
+            <label for="">
+                 <b id="songs">赤伶</b>
+                 <i class="iconfont" id="like">&#xe85c;</i>
+            </label>
+            <p id="songspelpor">是二智啊</p>
+        </div>
+        <div class="center">
+            <ul class="center_ul">
+                <li><i class="iconfont" style="font-size: 1.5em;font-weight: bold;color: black;">&#xe661;</i></li>
+                <li><i class="iconfont">&#xe63c;</i></li>
+                <li><i class="iconfont bt" onclick="bf()">&#xe77e;</i></li>
+                <li><i class="iconfont">&#xe63e;</i></li>
+                <li><b>词</b></li>
+            </ul>
+            <div class="mtime">
+                <span>00:00</span><input style="width: 400px;margin-left: 30px;" type="range" min="0" max="100" id="volume" /><span>04:15</span>
+            </div>
+        </div>
+
+        <div class="boxright">
+            <div class="viold">标准</div>
+            <i class="iconfont" style="margin-left: 20px;">&#xe61b;</i>
+            <i class="iconfont " style="font-size: 1.5em;margin-left: 20px;">&#xe80e;</i>
+            <input type="range" min="0" max="100" id="volume" style="margin-left: 20px;" />
+            <i class="iconfont " style="font-size: 1.5em;margin-left: 20px;">&#xe6a7;</i>
+        </div>
+    </footer>
+
+
+</body>
+
+
+
+</html>

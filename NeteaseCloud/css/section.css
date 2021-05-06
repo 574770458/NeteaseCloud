@@ -1,0 +1,48 @@
+@charset 'utf-8';
+ul li {
+    margin-left: 15px;
+    margin-top: 15px;
+    list-style-type: none;
+}
+
+#section_nva_ul1 {
+    margin-top: 20px;
+}
+
+#section_nva_ul2 i {
+    font-size: 1.5em;
+}
+
+p {
+    margin-left: 25px;
+    color: rgba(0, 0, 0, 0.342);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+
+span {
+    margin-left: 25px;
+    color: rgba(0, 0, 0, 0.342);
+}
+
+#select1 {
+    margin-left: 5px;
+    color: rgb(12, 12, 12);
+}
+
+#add {
+    font-size: 1.5em;
+    float: right;
+}
+
+#a {
+    display: none;
+}
+
+#section_nva_ul3 i {
+    font-size: 1.5em;
+}

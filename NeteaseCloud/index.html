@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<style>
+    div {
+        margin: 200px auto;
+        width: 300px;
+        height: 500x;
+        border: 2px solid black;
+        padding: 20px;
+    }
+    
+    div input {
+        width: 300px;
+        height: 30px;
+    }
+    
+    #chexkbox {
+        width: 15px;
+        height: 15px;
+    }
+    
+    #submit {
+        width: 50px;
+        height: 30px;
+        border: 1px solid blue;
+        background-color: whitesmoke;
+        color: thistle;
+        border-radius: 10px;
+        margin-left: 230px;
+    }
+    
+    div footer {
+        position: relative;
+        top: 10px;
+        width: 100%;
+        height: 80px;
+        background-color: teal;
+    }
+    
+    div p span {
+        margin-left: 100px;
+    }
+    
+    .heard {
+        background-color: red;
+        width: 250px;
+        height: 20px;
+        margin: 0;
+    }
+</style>
+
+
+
+
+<body>
+    <div>
+        <section>
+            <div class="heard">
+                <label for=""><img src="imgs/网易云图标.jfif" alt=""id="icon">网易云音乐</label>
+            </div>
+            <h2>欢迎进入网易云听歌系统！</h2>
+            <p>用户名：</p>
+            <input placeholder="请输入用户名">
+            <p>密码：<span><a href="" style="color: blue;text-decoration: none;">忘记密码？</a><a href="" style="color:blue;text-decoration: none;">用户注册</a></span></p>
+            <input placeholder="请输入密码">
+            <p>验证码：</p>
+            <input placeholder="请输入验证码" style="width: 150px;">
+        </section>
+        <footer>
+            <br>
+            <input type="checkbox" id="chexkbox">
+            <label>记住登录状态</label>
+            <input type="submit" id="submit">
+
+        </footer>
+    </div>
+
+
+</body>
+
+</html>

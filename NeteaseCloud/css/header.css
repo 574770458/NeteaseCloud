@@ -1,0 +1,87 @@
+@charset "utf-8";
+#tubiao * {
+    margin-top: -10px;
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+#box1 {
+    color: white;
+    font-size: 1.5em;
+}
+
+.b {
+    display: inline-block;
+    margin-left: 10%;
+}
+
+.box {
+    margin-top: 20px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 35px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.171);
+}
+
+.sear {
+    position: absolute;
+    top: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    display: inline-block;
+    background-color: rgba(163, 38, 38, 0.356);
+}
+
+.sear input {
+    margin-top: 8px;
+    margin-right: 8px;
+    float: right;
+    border-style: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+}
+
+input::-webkit-input-placeholder {
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+#img1 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    vertical-align: middle
+}
+
+.c {
+    margin-left: 100px;
+    display: inline-block;
+}
+
+#span1 {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: white;
+}
+
+.d_ul {
+    position: fixed;
+    right: 20px;
+    top: 10px;
+}
+
+.d_ul li {
+    float: left;
+    margin-right: 5px;
+    list-style: none;
+}

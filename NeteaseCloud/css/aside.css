@@ -1,0 +1,58 @@
+@charset 'utf-8';
+.top {
+    position: relative;
+    height: 55%;
+}
+
+.top_ul li {
+    list-style: none;
+    float: left;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.top_div img {
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 22%;
+}
+
+.center_like b {
+    font-size: 1.5em;
+    margin-left: 30px;
+}
+
+.center_like_ul li {
+    width: 20%;
+    height: 300px;
+    padding: 1.5%;
+    float: left;
+}
+
+.center_like_ul li img {
+    width: 220px;
+    height: 220px;
+}
+
+.center_like div {
+    width: 80%;
+}
+
+.top_div_ul {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 85%;
+}
+
+.top_div_ul li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-color: white;
+}

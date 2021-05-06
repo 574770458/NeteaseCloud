@@ -1,0 +1,62 @@
+@charset "utf-8";
+#imgs {
+    border-radius: 5px;
+    margin-left: 20px;
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+
+#songs {
+    margin-left: 10px;
+    color: black;
+    font-size: 1em;
+}
+
+#songspelpor {
+    margin-left: 80px;
+    color: rgba(8, 8, 8, 0.671);
+    font-size: 0.7em;
+}
+
+#like {
+    color: red;
+    font-size: 1.5em;
+}
+
+.boxleft {
+    margin-top: 10px;
+    float: left;
+}
+
+.boxright {
+    margin-top: 20px;
+    margin-right: 20px;
+    position: fixed;
+    right: 0;
+}
+
+.center_ul li {
+    float: left;
+    list-style: none;
+    margin-right: 2.5em;
+}
+
+.viold {
+    display: inline-block;
+    width: 2.4em;
+    height: 1.4em;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.center {
+    position: fixed;
+    left: 40%;
+    transform: translateX(-30%);
+}
+
+.mtime {
+    margin-left: -100px;
+    margin-top: 45px;
+}
